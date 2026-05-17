@@ -1,41 +1,41 @@
-import { Shield, Award, Clock, Users, Star, ThumbsUp } from "lucide-react";
+import { Award, BookOpen, Clock, Mic2, School, Users } from "lucide-react";
 
 const badges = [
   {
-    icon: Star,
-    value: "4.9",
-    label: "Google Rating",
-    subtext: "129 Reviews"
+    icon: School,
+    value: "6-8",
+    label: "Middle School",
+    subtext: "Beginner-friendly"
   },
   {
     icon: Clock,
-    value: "16+",
-    label: "Years Experience",
-    subtext: "Since 2008"
+    value: "1-2 hr",
+    label: "Camp Sessions",
+    subtext: "In person"
   },
   {
     icon: Users,
-    value: "5,000+",
-    label: "Happy Customers",
-    subtext: "Residential & Commercial"
+    value: "Small",
+    label: "Group Coaching",
+    subtext: "Practice-heavy"
   },
   {
-    icon: Shield,
-    value: "100%",
-    label: "Satisfaction Guarantee",
-    subtext: "Or Money Back"
+    icon: BookOpen,
+    value: "6",
+    label: "Formats",
+    subtext: "Debate + MUN"
   },
   {
     icon: Award,
-    value: "Licensed",
-    label: "& Insured",
-    subtext: "Virginia Certified"
+    value: "State",
+    label: "Qualifiers",
+    subtext: "National qualifiers too"
   },
   {
-    icon: ThumbsUp,
-    value: "Same Day",
-    label: "Service Available",
-    subtext: "Fast Response"
+    icon: Mic2,
+    value: "Free",
+    label: "No Fees",
+    subtext: "Volunteer coaches"
   }
 ];
 

@@ -11,46 +11,46 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center">
-                <span className="text-lg font-bold text-accent-foreground">A</span>
+                <span className="text-lg font-bold text-accent-foreground">S</span>
               </div>
               <div>
-                <h3 className="font-bold font-display">Affordable Plumbing</h3>
-                <p className="text-xs text-primary-foreground/70">& Gas LLC</p>
+                <h3 className="font-bold font-display">Speech Spark</h3>
+                <p className="text-xs text-primary-foreground/70">Free debate camps</p>
               </div>
             </div>
             <p className="text-primary-foreground/75 text-sm mb-4">
-              Serving Arlington and Northern Virginia with professional plumbing and gas services since 2008.
+              A non-profit, student-led public speaking and debate program for middle school students in grades 6-8.
             </p>
             <div className="flex items-center gap-2">
               <span className="text-warning text-lg">★</span>
-              <span className="font-semibold">4.9</span>
-              <span className="text-primary-foreground/60">/ 5 (129 reviews)</span>
+              <span className="font-semibold">Free</span>
+              <span className="text-primary-foreground/60">student-led coaching</span>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-bold font-display mb-4">Services</h4>
+            <h4 className="font-bold font-display mb-4">Debate Types</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/75">
-              <li><a href="#services" className="hover:text-accent transition-colors">General Repairs</a></li>
-              <li><a href="#services" className="hover:text-accent transition-colors">Drain Cleaning</a></li>
-              <li><a href="#services" className="hover:text-accent transition-colors">Water Heaters</a></li>
-              <li><a href="#services" className="hover:text-accent transition-colors">Gas Line Services</a></li>
-              <li><a href="#services" className="hover:text-accent transition-colors">Bathroom Plumbing</a></li>
-              <li><a href="#services" className="hover:text-accent transition-colors">Sewer Services</a></li>
+              <li><a href="#services" className="hover:text-accent transition-colors">Policy Debate</a></li>
+              <li><a href="#services" className="hover:text-accent transition-colors">Public Forum</a></li>
+              <li><a href="#services" className="hover:text-accent transition-colors">Lincoln-Douglas</a></li>
+              <li><a href="#services" className="hover:text-accent transition-colors">Congressional Debate</a></li>
+              <li><a href="#services" className="hover:text-accent transition-colors">Model UN</a></li>
+              <li><a href="#services" className="hover:text-accent transition-colors">Tournament Prep</a></li>
             </ul>
           </div>
 
-          {/* Service Areas */}
+          {/* Program Info */}
           <div>
-            <h4 className="font-bold font-display mb-4">Service Areas</h4>
+            <h4 className="font-bold font-display mb-4">Program Info</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/75">
-              <li>Arlington, VA</li>
-              <li>Alexandria, VA</li>
-              <li>Falls Church, VA</li>
-              <li>Fairfax, VA</li>
-              <li>McLean, VA</li>
-              <li>Tysons, VA</li>
+              <li>Grades 6-8</li>
+              <li>Free for families</li>
+              <li>1-2 hour sessions</li>
+              <li>Partner middle schools</li>
+              <li>Small-group practice</li>
+              <li>Beginner friendly</li>
             </ul>
           </div>
 
@@ -58,17 +58,17 @@ const Footer = () => {
           <div>
             <h4 className="font-bold font-display mb-4">Contact Us</h4>
             <div className="space-y-3">
-              <a href="tel:7038393910" className="flex items-center gap-3 text-sm hover:text-accent transition-colors">
+              <a href="tel:5713891747" className="flex items-center gap-3 text-sm hover:text-accent transition-colors">
                 <Phone className="h-4 w-4" />
-                (703) 839-3910
+                5713891747
               </a>
-              <a href="mailto:info@affordableplumbingva.com" className="flex items-center gap-3 text-sm hover:text-accent transition-colors">
+              <a href="mailto:fill-in-email@example.com" className="flex items-center gap-3 text-sm hover:text-accent transition-colors">
                 <Mail className="h-4 w-4" />
-                info@affordableplumbingva.com
+                FILL IN EMAIL HERE
               </a>
               <div className="flex items-start gap-3 text-sm text-primary-foreground/75">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>3804 Wilson Blvd #1030<br />Arlington, VA 22203</span>
+                <span>FILL IN SCHOOL / CAMP SITE HERE<br />Partner middle schools</span>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="border-t border-primary-foreground/10 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
-          <p>© {currentYear} Affordable Plumbing & Gas LLC. All rights reserved.</p>
+          <p>© {currentYear} Speech Spark. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-primary-foreground transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-primary-foreground transition-colors">Terms of Service</a>

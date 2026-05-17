@@ -1,36 +1,36 @@
-import { CheckCircle, Phone, Clock, DollarSign, Shield, Award, Users } from "lucide-react";
+import { CheckCircle, HeartHandshake, School, Sparkles, Trophy, Users, Wallet } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const reasons = [
   {
-    icon: DollarSign,
-    title: "Affordable & Transparent Pricing",
-    description: "No hidden fees, no surprises. We provide upfront quotes so you know exactly what to expect before work begins."
+    icon: Wallet,
+    title: "Completely Free",
+    description: "Speech Spark is a non-profit student-led initiative. Families pay nothing: no tuition, no materials fee, no late charges."
   },
   {
-    icon: Clock,
-    title: "Fast Response Times",
-    description: "Emergency or scheduled—we're there when you need us. Same-day service available for most issues."
+    icon: School,
+    title: "Student-Led by High Schoolers",
+    description: "Our coaches are varsity debaters and Model UN delegates, so students get advice from people who are still actively competing."
   },
   {
-    icon: Shield,
-    title: "Licensed & Fully Insured",
-    description: "Peace of mind with every job. Our team is certified, background-checked, and fully insured."
+    icon: Sparkles,
+    title: "Relatable Coaching",
+    description: "We remember being brand-new, confused, and nervous in round. That makes our explanations practical, accurate, and easier to follow."
   },
   {
-    icon: Award,
-    title: "16+ Years of Excellence",
-    description: "Serving Arlington and Northern Virginia since 2008 with consistent 5-star quality work."
+    icon: Trophy,
+    title: "Goated at Debate",
+    description: "Our officers include state and national qualifiers who have placed locally and nationally in debate and Model UN spaces."
   },
   {
     icon: Users,
-    title: "Family-Owned & Operated",
-    description: "We treat your home like our own. Personal service and attention to detail on every job."
+    title: "Small-Group Practice",
+    description: "Students work in focused groups on speeches, flowing, cross-examination, refutation, research, and mock rounds."
   },
   {
-    icon: CheckCircle,
-    title: "100% Satisfaction Guarantee",
-    description: "Not happy? We'll make it right. Our work is backed by our iron-clad satisfaction guarantee."
+    icon: HeartHandshake,
+    title: "We Help Students Go Further",
+    description: "We were once in their position, and our goal is to help middle schoolers reach where we are now and go even further."
   }
 ];
 
@@ -49,10 +49,10 @@ const WhyUsSection = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block text-accent font-semibold mb-4">WHY CHOOSE US</span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-display mb-6">
-            The Affordable Plumbing Difference
+            Why Speech Spark works
           </h2>
           <p className="text-lg text-primary-foreground/80">
-            We've built our reputation on trust, quality, and honest pricing. Here's why thousands of Arlington residents choose us.
+            Debate should not cost thousands to learn. We bring clear, competitive, beginner-friendly coaching directly to middle schools.
           </p>
         </div>
 
@@ -79,12 +79,12 @@ const WhyUsSection = () => {
         {/* CTA */}
         <div className="text-center">
           <p className="text-primary-foreground/80 mb-4 text-lg">
-            Ready to experience the difference?
+            Ready to bring free debate coaching to your school?
           </p>
-          <a href="tel:7038393910">
+          <a href="#contact-form">
             <Button variant="hero" size="xl">
-              <Phone className="h-5 w-5" />
-              Call (703) 839-3910
+              <CheckCircle className="h-5 w-5" />
+              Sign Up Here
             </Button>
           </a>
         </div>

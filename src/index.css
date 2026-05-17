@@ -16,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    /* Navy blue - trust & professionalism */
+    /* Navy blue - clarity and confidence */
     --primary: 215 70% 22%;
     --primary-foreground: 0 0% 100%;
 
@@ -28,8 +28,8 @@
     --muted: 210 20% 94%;
     --muted-foreground: 215 15% 45%;
 
-    /* Teal accent - water/action */
-    --accent: 185 70% 42%;
+    /* Warm spark accent */
+    --accent: 22 90% 56%;
     --accent-foreground: 0 0% 100%;
 
     /* Success/rating green */
@@ -45,13 +45,13 @@
 
     --border: 214 25% 88%;
     --input: 214 25% 88%;
-    --ring: 185 70% 42%;
+    --ring: 22 90% 56%;
 
     --radius: 0.75rem;
 
     /* Custom gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(215 70% 22%) 0%, hsl(215 65% 28%) 50%, hsl(200 60% 30%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(185 70% 42%) 0%, hsl(185 65% 48%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(215 70% 22%) 0%, hsl(224 60% 26%) 50%, hsl(245 42% 30%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(22 90% 56%) 0%, hsl(38 92% 55%) 100%);
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 25% 98%) 100%);
     
     /* Shadows */
@@ -59,7 +59,7 @@
     --shadow-md: 0 4px 6px -1px hsl(215 25% 15% / 0.08), 0 2px 4px -2px hsl(215 25% 15% / 0.05);
     --shadow-lg: 0 10px 15px -3px hsl(215 25% 15% / 0.08), 0 4px 6px -4px hsl(215 25% 15% / 0.05);
     --shadow-xl: 0 20px 25px -5px hsl(215 25% 15% / 0.1), 0 8px 10px -6px hsl(215 25% 15% / 0.05);
-    --shadow-glow: 0 0 40px hsl(185 70% 42% / 0.3);
+    --shadow-glow: 0 0 40px hsl(22 90% 56% / 0.3);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -78,19 +78,19 @@
     --card-foreground: 210 20% 95%;
     --popover: 215 25% 13%;
     --popover-foreground: 210 20% 95%;
-    --primary: 185 70% 50%;
+    --primary: 22 90% 58%;
     --primary-foreground: 215 25% 10%;
     --secondary: 215 25% 18%;
     --secondary-foreground: 210 20% 90%;
     --muted: 215 25% 18%;
     --muted-foreground: 215 15% 60%;
-    --accent: 185 70% 50%;
+    --accent: 38 92% 55%;
     --accent-foreground: 215 25% 10%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
     --border: 215 25% 20%;
     --input: 215 25% 20%;
-    --ring: 185 70% 50%;
+    --ring: 38 92% 55%;
   }
 }
 

@@ -9,36 +9,28 @@ import { Button } from "@/components/ui/button";
 
 const faqs = [
   {
-    question: "What areas do you serve?",
-    answer: "We proudly serve Arlington and all of Northern Virginia, including Alexandria, Falls Church, Fairfax, McLean, Tysons, and surrounding areas. If you're unsure if we cover your location, give us a call!"
+    question: "Is the camp really free?",
+    answer: "Yes. Speech Spark is a non-profit student-led initiative. Our coaches volunteer their time. Students and families pay nothing - no tuition, no materials fee, no late charges."
   },
   {
-    question: "Do you offer emergency plumbing services?",
-    answer: "Yes! We understand plumbing emergencies can't wait. We offer 24/7 emergency services for urgent issues like major leaks, burst pipes, and sewer backups. Call us anytime at (703) 839-3910."
+    question: "What grades is this for?",
+    answer: "6th, 7th, and 8th grade. Curriculum is calibrated for absolute beginners as well as students who already compete on a middle school circuit."
   },
   {
-    question: "How much does a plumbing service call cost?",
-    answer: "We provide free estimates for most services. Our pricing is transparent and upfront—you'll know exactly what you're paying before we start any work. No hidden fees, ever."
+    question: "Do students need debate experience?",
+    answer: "No. Most of our students have never debated before. We start with the basics - what a flow is, how a round runs, how to write a contention - and ramp into mock rounds by the end of camp."
   },
   {
-    question: "Are your plumbers licensed and insured?",
-    answer: "Absolutely! All our technicians are fully licensed in the state of Virginia and carry comprehensive insurance. We also conduct background checks on all team members for your peace of mind."
+    question: "Where are camps held?",
+    answer: "We host 1-2 hour sessions at partner middle schools across the area. If your school isn't on our list yet, have an administrator or PTA contact us - we set up new sites every season."
   },
   {
-    question: "How quickly can you come out for a service call?",
-    answer: "For emergencies, we aim to respond within 1-2 hours. For scheduled appointments, we often have same-day or next-day availability. We'll work with your schedule to find a convenient time."
+    question: "Who are the coaches?",
+    answer: "Officers and varsity members of the Thomas Jefferson High School for Science and Technology Lincoln-Douglas and Policy debate clubs. Many of our coaches are state and national qualifiers."
   },
   {
-    question: "Do you offer warranties on your work?",
-    answer: "Yes! We stand behind our work with a 100% satisfaction guarantee. Parts and labor are typically warrantied for 1 year, and many fixtures and appliances come with manufacturer warranties as well."
-  },
-  {
-    question: "What forms of payment do you accept?",
-    answer: "We accept all major credit cards, debit cards, checks, and cash. For larger projects, we also offer financing options to help manage costs."
-  },
-  {
-    question: "Can you help with gas line installation?",
-    answer: "Yes! We're certified for gas line work including installation, repair, and leak detection. Whether you need a new gas line for your grill, dryer, or stove, we've got you covered safely and professionally."
+    question: "How do I bring Speech Spark to my school?",
+    answer: "Use the contact form above and select 'School / Educator Inquiry'. We'll send a one-page program overview, sample schedule, and the volunteer paperwork our coaches complete."
   }
 ];
 
@@ -54,7 +46,7 @@ const FAQSection = () => {
               Frequently Asked Questions
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Got questions? We've got answers. If you don't see what you're looking for, give us a call—we're always happy to help.
+              Questions from families, students, schools, and PTAs about the free middle school debate program.
             </p>
             
             <div className="bg-card rounded-xl p-6 shadow-lg border border-border">
@@ -62,12 +54,12 @@ const FAQSection = () => {
                 Still have questions?
               </h3>
               <p className="text-muted-foreground mb-4">
-                Our friendly team is here to help. Call us for immediate assistance.
+                Call or submit the form above and choose the inquiry type that fits you.
               </p>
-              <a href="tel:7038393910">
+              <a href="tel:5713891747">
                 <Button variant="accent" size="lg" className="w-full">
                   <Phone className="h-5 w-5" />
-                  (703) 839-3910
+                  5713891747
                 </Button>
               </a>
             </div>

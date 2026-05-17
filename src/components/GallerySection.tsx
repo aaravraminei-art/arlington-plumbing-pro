@@ -1,18 +1,36 @@
 import { useState } from "react";
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
-import gallery5 from "@/assets/gallery-5.jpg";
-import gallery6 from "@/assets/gallery-6.jpg";
 
 const galleryItems = [
-  { src: gallery1, title: "Bathroom Renovation", category: "Bathroom" },
-  { src: gallery2, title: "Water Heater Installation", category: "Installation" },
-  { src: gallery3, title: "Kitchen Sink Repair", category: "Repair" },
-  { src: gallery4, title: "Gas Line Installation", category: "Gas" },
-  { src: gallery5, title: "Pipe Replacement", category: "Repair" },
-  { src: gallery6, title: "Commercial Plumbing", category: "Commercial" },
+  {
+    src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
+    title: "Small-group case building",
+    category: "Research"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80",
+    title: "Crossfire and CX drills",
+    category: "Clash"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=900&q=80",
+    title: "Speaking with confidence",
+    category: "Delivery"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80",
+    title: "Evidence and flowing practice",
+    category: "Prep"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80",
+    title: "Team strategy sessions",
+    category: "Strategy"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?auto=format&fit=crop&w=900&q=80",
+    title: "Mock rounds and ballots",
+    category: "Tournament"
+  },
 ];
 
 const GallerySection = () => {
@@ -23,12 +41,12 @@ const GallerySection = () => {
       <div className="container-custom">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="inline-block text-accent font-semibold mb-4">OUR WORK</span>
+          <span className="inline-block text-accent font-semibold mb-4">INSIDE A DEBATE CAMP</span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-display text-foreground mb-6">
-            Quality Craftsmanship Gallery
+            From 1AC to first ballot.
           </h2>
           <p className="text-lg text-muted-foreground">
-            See examples of our professional work. Every job is completed with care and attention to detail.
+            Students learn the flow of a round, build arguments, practice speaking, and get real feedback from coaches who compete.
           </p>
         </div>
 
@@ -68,7 +86,7 @@ const GallerySection = () => {
         >
           <img
             src={selectedImage}
-            alt="Gallery"
+            alt="Inside a Speech Spark debate camp"
             className="max-w-full max-h-[90vh] rounded-xl shadow-2xl"
           />
           <button
