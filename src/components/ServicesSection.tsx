@@ -12,19 +12,19 @@ const services = [
     icon: Users,
     title: "Public Forum",
     description: "A partner debate format focused on current events, clear speaking, weighing, rebuttal strategy, and judge persuasion.",
-    features: ["Case writing", "Summary speeches", "Final focus drills"]
+    features: ["Collaborative case writing", "Summary speeches", "Final focus drills"]
   },
   {
     icon: Scale,
     title: "Lincoln-Douglas",
     description: "A prestigious, one-on-one format centered on philosophy, values, and ethics. Teaches students how to construct deep logical frameworks and clash respectfully.",
-    features: ["Values and criteria", "Contentions", "Rebuttal strategy"]
+    features: ["Philosophical frameworks", "Value-criterion debate", "Rebuttal strategy"]
   },
   {
     icon: Gavel,
     title: "Congressional Debate",
     description: "Congressional debate simulates the U.S. legislative process. Students act as senators and representatives, learning how to analyze legislation, cross-examine peers, and command a chamber room.",
-    features: ["Legislation analysis", "Authorship speeches", "PO questioning"]
+    features: ["Legislation analysis", "Authorship speeches", "Parliamentary procedure"]
   },
   {
     icon: Globe2,
@@ -51,7 +51,7 @@ const ServicesSection = () => {
             Debate formats we teach
           </h2>
           <p className="text-lg text-muted-foreground">
-            Speech Spark is built for middle schoolers who want a real start in debate, public speaking, research, and tournament readiness.
+  Speech Spark brings elite speech and debate training to middle schoolers. Led by competitive debaters from Thomas Jefferson High School for Science and Technology (TJHSST), we bridge the gap between middle school confidence and high school academic readiness.
           </p>
         </div>
 
