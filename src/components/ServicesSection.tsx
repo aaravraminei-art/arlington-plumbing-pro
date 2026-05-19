@@ -5,7 +5,7 @@ const services = [
   {
     icon: Landmark,
     title: "Policy Debate",
-    description: "Students learn plans, advantages, disadvantages, cross-examination, and how to build organized evidence-based speeches.",
+    description: "Students learn plans, advantages, disadvantages, cross-examination, and how to build organized evidence-based speeches for a year-long topic.",
     features: ["1AC structure", "Flowing basics", "Evidence comparison"]
   },
   {
@@ -17,13 +17,13 @@ const services = [
   {
     icon: Scale,
     title: "Lincoln-Douglas",
-    description: "Value-based debate training that teaches students how to explain frameworks, make arguments, and clash respectfully.",
+    description: "A prestigious, one-on-one format centered on philosophy, values, and ethics. Teaches students how to construct deep logical frameworks and clash respectfully.",
     features: ["Values and criteria", "Contentions", "Rebuttal strategy"]
   },
   {
     icon: Gavel,
     title: "Congressional Debate",
-    description: "Students practice writing speeches, asking pointed questions, and speaking confidently in a chamber setting.",
+    description: "Congressional debate simulates the U.S. legislative process. Students act as senators and representatives, learning how to analyze legislation, cross-examine peers, and command a chamber room.",
     features: ["Legislation analysis", "Authorship speeches", "PO questioning"]
   },
   {
