@@ -13,20 +13,20 @@ const faqs = [
     answer: "Yes. Speech Spark is a non-profit student-led initiative. Our coaches volunteer their time. Students and families pay nothing - no tuition, no materials fee, no late charges."
   },
   {
-    question: "What grades is this for?",
-    answer: "6th, 7th, and 8th grade. Curriculum is calibrated for absolute beginners as well as students who already compete on a middle school circuit."
+    question: "What are the age requirements?",
+    answer: "6th, 7th, and 8th grade. The curriculum is made for absolute beginners as well as students who already compete in middle school circuits."
   },
   {
-    question: "Do students need debate experience?",
-    answer: "No. Most of our students have never debated before. We start with the basics - what a flow is, how a round runs, how to write a contention - and ramp into mock rounds by the end of camp."
+    question: "Do students need debate experience to join?",
+    answer: "No. Most of our students have either never debated before, or are trying a new style of debate. We first do a test meeting and evaluate our students' abilities, and then split them up into groups varying in difficulty. For beginners, we start with the basics - what a flow is, how a round runs, how to write a contention - and ramp into mock rounds by the end of camp."
   },
   {
     question: "Where are camps held?",
-    answer: "We host 1-2 hour sessions at partner middle schools across the area. If your school isn't on our list yet, have an administrator or PTA contact us - we set up new sites every season."
+    answer: "Our current camps involve weekly 1-2 hour sessions both online and at partner middle schools across the area. If your school isn't on our list yet, have an administrator or PTA contact us - we set up new sites every season."
   },
   {
     question: "Who are the coaches?",
-    answer: "Officers and varsity members of the Thomas Jefferson High School for Science and Technology Lincoln-Douglas and Policy debate clubs. Many of our coaches are state and national qualifiers."
+    answer: "Our coaching team is made of officers and varsity debaters here at Thomas Jefferson High School for Science and Technology. Many of our coaches are state and national qualifiers, and have past experience with teaching debate."
   },
   {
     question: "How do I bring Speech Spark to my school?",
