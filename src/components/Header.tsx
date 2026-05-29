@@ -9,6 +9,7 @@ const navItems = [
   { to: "/officers", label: "Officers" },
   { to: "/events", label: "Events" },
   { to: "/chapters", label: "Chapters" },
+  { to: "/faq", label: "FAQ" },
 ];
 
 const Header = () => {
